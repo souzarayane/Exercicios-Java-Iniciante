@@ -1,0 +1,2 @@
+Calculadora de IMC
+Crie um programa que calcule o Índice de Massa Corporal (IMC) com base no peso e altura fornecidos pelo usuário. A fórmula é IMC = peso / (altura * altura).

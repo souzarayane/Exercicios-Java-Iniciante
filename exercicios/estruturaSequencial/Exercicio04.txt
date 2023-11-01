@@ -1,0 +1,4 @@
+Calculadora de Juros Simples
+Desenvolva um programa que calcule o montante final de um investimento com juros 
+simples. Solicite ao usuário o principal (quantia inicial), a taxa de juros e o 
+período de tempo. Use a fórmula: Montante = Principal + (Principal * Taxa * Tempo).

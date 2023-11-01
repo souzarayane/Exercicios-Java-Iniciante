@@ -1,0 +1,28 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Exercicio01 {
+
+    public static void main(String[] args) {
+        Locale.setDefault(Locale.US);
+        Scanner scanner = new Scanner(System.in);
+
+        double principal = obterValor("Digite o valor inicial do investimento: ", scanner);
+        double taxaDeJuros = obterValor("Digite o valor da taxa de juros (em decimal): ", scanner);
+        double tempo = obterValor("Digite o tempo (em anos): ", scanner);
+
+        double montante = calcularMontante(principal, taxaDeJuros, tempo);
+
+        System.out.printf("O valor do montante é de %.2f%n", montante);
+        scanner.close();
+    }
+
+    public static double obterValor(String mensagem, Scanner scanner) {
+        System.out.print(mensagem);
+        return scanner.nextDouble();
+    }
+
+    public static double calcularMontante(double principal, double taxaDeJuros, double tempo) {
+        return principal + (principal * taxaDeJuros * tempo);
+    }
+}

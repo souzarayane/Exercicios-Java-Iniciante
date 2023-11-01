@@ -1,0 +1,28 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Exercicio03 {
+
+	public static void main(String[] args) {
+		
+		double peso;
+		double altura;
+		double imc;
+		
+		Locale.setDefault(Locale.US);
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Digite seu peso: ");
+		peso = scanner.nextDouble();
+		
+		System.out.println("Digite a sua altura: ");
+		altura = scanner.nextDouble();
+		
+		imc = peso / Math.pow(altura, 2);
+		System.out.printf("Seu IMC é de %.2f", imc);
+		
+		scanner.close();
+
+	}
+
+}

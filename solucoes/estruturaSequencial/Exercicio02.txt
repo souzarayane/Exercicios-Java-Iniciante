@@ -1,0 +1,30 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Exercicio02 {
+
+	public static void main(String[] args) {
+		
+		double nota1, nota2, nota3;
+		double media = 0;
+		
+		Locale.setDefault(Locale.US);
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Digite a primeira nota: ");
+		nota1 = scanner.nextDouble();
+		
+		System.out.println("Digite a segunda nota: ");
+		nota2 = scanner.nextDouble();
+		
+		System.out.println("Digite a terceira nota: ");
+		nota3 = scanner.nextDouble();
+		
+		media = (nota1 + nota2 + nota3) / 3;
+		System.out.printf("A média das três notas é %.2f", media);
+		
+		scanner.close();
+
+	}
+
+}

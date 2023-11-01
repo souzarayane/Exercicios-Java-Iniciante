@@ -1,0 +1,1 @@
+Escreva um programa Java que recebe três números (notas) como entrada e calcula a média. Em seguida, exiba o resultado.
