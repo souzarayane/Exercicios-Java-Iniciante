@@ -1,0 +1,3 @@
+Faça um programa para ler o preço de dois produtos, e depois mostrar na tela
+a soma desses valores.
+ 
