@@ -1,0 +1,25 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Exercicio06 {
+
+	public static void main(String[] args) {
+		
+		int anoAtual = 2023;
+		int anoNascimento;
+		int idade;
+		
+		Locale.setDefault(Locale.US);
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Digite o ano do seu nascimento: ");
+		anoNascimento = scanner.nextInt();
+		
+		idade = anoAtual - anoNascimento;
+		System.out.printf("Você tem %d anos", idade);
+		
+		scanner.close();
+
+	}
+
+}

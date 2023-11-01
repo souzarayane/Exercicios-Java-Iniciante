@@ -1,0 +1,4 @@
+Cálculo de Desconto
+Desenvolva um programa que receba o preço original de um produto e a taxa de 
+desconto, e calcule o preço final após o desconto. O desconto é calculado como 
+Desconto = PreçoOriginal * (TaxaDeDesconto / 100).

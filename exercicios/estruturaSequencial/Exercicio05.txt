@@ -1,0 +1,4 @@
+Cálculo da Área de um Retângulo
+Crie um programa que solicita a largura e a altura de um retângulo e, 
+em seguida, calcula e exibe a área do retângulo, que é dada por 
+Área = Largura * Altura.

@@ -1,0 +1,32 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Exercicio07 {
+
+	public static void main(String[] args) {
+		
+		double precoProduto;
+		double precoFinal;
+		double taxaDesconto;
+		double desconto = 0;
+		
+		Locale.setDefault(Locale.US);
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Digite o valor do produto: ");
+		precoProduto = scanner.nextDouble();
+		
+		System.out.println("Digite a taxa de desconto: ");
+		taxaDesconto = scanner.nextDouble();
+		
+		desconto = precoProduto * (taxaDesconto / 100);
+		System.out.printf("O desconto é de = R$%.2f\n", desconto);
+		
+		precoFinal = precoProduto - desconto;
+		System.out.printf("O preço final com o desconto é de R$%.2f", precoFinal);
+		
+		scanner.close();
+
+	}
+
+}

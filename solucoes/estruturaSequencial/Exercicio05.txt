@@ -1,0 +1,29 @@
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Exercicio05 {
+
+	public static void main(String[] args) {
+		
+		double altura;
+		double largura;
+		double area = 0;
+		
+		Locale.setDefault(Locale.US);
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Digite a largura do triângulo: ");
+		largura = scanner.nextDouble();
+		
+		System.out.println("Digite a altura do triângulo: ");
+		altura = scanner.nextDouble();
+		
+		area = largura * altura;
+		System.out.printf("O valor da área do triângulo é de %.2f", area);
+		
+		scanner.close();
+
+	}
+
+}
