@@ -1,0 +1,51 @@
+import java.util.Scanner;
+
+public class Exercicio03 {
+
+	public static void main(String[] args) {
+		
+		int codigo;
+		int quantidade = 0;
+		double preco = 0;
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Digite o código do produto: ");
+		codigo = scanner.nextInt();
+		
+		switch (codigo) {
+		case 1:
+			System.out.println("Opção 1.Pizza. Valor R$30,00 unidade.");
+			preco = 30.00;
+			break;
+		case 2:
+			System.out.println("Opção 2.Sorvete. Valor R$15,00 unidade.");
+			preco = 15.00;
+			break;
+		case 3:
+			System.out.println("Opção 3.Hamburguer. Valor R$28,50 unidade.");
+			preco = 28.50;
+			break;
+		case 4:
+			System.out.println("Opção 4.Suco. Valor R$8,00 unidade.");
+			preco = 8.00;
+			break;
+		case 5:
+			System.out.println("Opção 5.Refrigerante. Valor R$9,50 unidade.");
+			preco = 9.50;
+			break;
+		}
+		
+		System.out.println("Digite a quantidade: ");
+		quantidade = scanner.nextInt();
+		
+		System.out.printf("A quantidade escolhida foi: %d\n", quantidade);
+		
+		double totalPagar = (quantidade * preco);
+		System.out.printf("O total a pagar é de %.2f", totalPagar);
+		
+		scanner.close();
+
+	}
+
+}

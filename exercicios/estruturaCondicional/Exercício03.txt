@@ -1,0 +1,12 @@
+Com base na tabela abaixo, escreva um programa que leia o código de um item e a quantidade deste item. A
+seguir, calcule e mostre o valor da conta a pagar.
+
+Codigo		Produto			Preço
+  1		Pizza			R$30,00
+  2		Sorvete			R$15,00
+  3		Hamburguer		R$28,50
+  4		Suco			R$08,00
+  5		Refrigerante		R$09,50
+
+
+
