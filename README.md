@@ -1,5 +1,3 @@
-Claro! Abaixo está um exemplo de um README.md para um repositório no GitHub com exercícios em Java de nível iniciante:
-
 # Exercícios em Java (Nível Iniciante)
 
 Bem-vindo ao repositório de Exercícios em Java de nível iniciante. Este repositório foi criado para ajudar iniciantes a praticar suas habilidades de programação em Java. Aqui, você encontrará uma variedade de exercícios simples projetados para ajudar você a se familiarizar com os conceitos básicos da linguagem Java.
