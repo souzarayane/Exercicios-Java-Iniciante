@@ -1,0 +1,2 @@
+Exercício 1: Soma de Elementos
+Escreva um programa que calcula a soma de todos os elementos em um array de inteiros.

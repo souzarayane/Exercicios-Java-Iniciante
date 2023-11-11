@@ -1,0 +1,26 @@
+public class Exercicio04 {
+
+    public static void main(String[] args) {
+        int[] meuArray = {1, 5, 9, 3, 7, 2, 8, 4, 6};
+
+        int elementoProcurado = 5;
+
+        int indiceEncontrado = buscaLinear(meuArray, elementoProcurado);
+
+        if (indiceEncontrado != -1) {
+            System.out.println("Elemento encontrado no índice: " + indiceEncontrado);
+        } else {
+            System.out.println("Elemento não encontrado no array.");
+        }
+    }
+
+    // Função para busca linear
+    public static int buscaLinear(int[] array, int alvo) {
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == alvo) {
+                return i; // Retorna o índice se o elemento for encontrado
+            }
+        }
+        return -1; // Retorna -1 se o elemento não for encontrado
+    }
+}

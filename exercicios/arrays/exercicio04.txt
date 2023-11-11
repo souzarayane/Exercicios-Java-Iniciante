@@ -1,0 +1,3 @@
+Exercício 4: Busca Linear
+Implemente uma função de busca linear que procura por um número específico em um 
+array e retorna verdadeiro se ele estiver presente, falso caso contrário.

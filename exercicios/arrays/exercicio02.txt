@@ -1,0 +1,2 @@
+Exercício 2: Maior Elemento
+Crie um programa que encontre o maior elemento em um array de números inteiros.

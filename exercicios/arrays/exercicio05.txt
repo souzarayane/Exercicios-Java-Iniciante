@@ -1,0 +1,3 @@
+Exercício 5: Invertendo um Array
+Escreva um programa que inverte a ordem dos elementos em um array. 
+Por exemplo, se o array inicial for [1, 2, 3, 4], o array resultante deve ser [4, 3, 2, 1].

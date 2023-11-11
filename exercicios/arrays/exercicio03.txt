@@ -1,0 +1,2 @@
+Exercício 3: Média de Números
+Calcule a média de um array de números reais.

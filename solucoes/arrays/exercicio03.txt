@@ -1,0 +1,12 @@
+public class Exercicio03 {
+    public static void main(String[] args) {
+        int[] numeros = {1, 8, 9, 70, 6};
+        int media = 0;
+        int soma = 0;
+        for(int i = 0;  i < numeros.length; i++){
+            soma +=  numeros[i];
+        }
+        media = soma / numeros.length;
+        System.out.println("A soma dos números do array é " + media);
+    }
+}
